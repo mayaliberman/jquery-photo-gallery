@@ -1,0 +1,28 @@
+body {
+  background-color: wheat;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center 
+}
+
+.gallery-container  {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+li {
+    padding: 15px;
+}
