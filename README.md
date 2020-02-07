@@ -9,4 +9,4 @@ Download the project files and go to index.html
 You can also see it live here: https://mayaliberman.github.io/jquery-photo-gallery/
 
 
-![Image of gallery](https://mayaliberman.github.com/photos/fed-5.png)
+![Image of gallery](https://github.com/mayaliberman/jquery-photo-gallery/photos/fed-5.png)
