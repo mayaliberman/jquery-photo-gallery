@@ -13,15 +13,15 @@ $(".input-box").on("keyup", function(event) {
     .toLowerCase();
 
   $("a[data-title]").each(function() {
-    var testdata = $(this).data("title").toLowerCase();
+    let testdata = $(this).data("title").toLowerCase();
     if(value === '') {
-        $(this).parent().removeClass('hide')
-        return
+        $(this).parent().removeClass('hide');
+        return;
     }
    if(testdata.includes(value) && value !== '') {
-       $(this).parent().removeClass('hide')
+       $(this).parent().removeClass('hide');
    } else {
-       $(this).parent().addClass('hide')
+       $(this).parent().addClass('hide');
    }
   });
 });
