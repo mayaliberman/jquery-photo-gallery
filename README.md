@@ -11,4 +11,4 @@ You can also see it live here: https://mayaliberman.github.io/jquery-photo-galle
 
 ![Image of gallery](https://github.com/mayaliberman/jquery-photo-gallery/photos/fed-5.png)
 
-![image of gallery](https://raw.githubusercontent.com/mayaliberman/jquery-photo-gallery/master/photos/to/fed-5.png)
+![image of gallery](https://raw.githubusercontent.com/mayaliberman/jquery-photo-gallery/master/photos/fed-5.png)
