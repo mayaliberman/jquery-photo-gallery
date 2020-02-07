@@ -14,11 +14,14 @@ $(".input-box").on("keyup", function(event) {
 
   $("a[data-title]").each(function() {
     var testdata = $(this).data("title").toLowerCase();
-    if (testdata.includes(value)) {
-      $(this).css({"display":"inline-block", "padding": "15px"});
-    } else {
-      $(this).css("display","none");
-      $(this).parent().css("padding", "0px")
+    if(value === '') {
+        $(this).parent().removeClass('hide')
+        return
     }
+   if(testdata.includes(value) && value !== '') {
+       $(this).parent().removeClass('hide')
+   } else {
+       $(this).parent().addClass('hide')
+   }
   });
 });
