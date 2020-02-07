@@ -34,7 +34,7 @@ $(".input-box").on("keyup", function(event) {
   });
 });
 
-$(".input-box").on("search", function(event) {
+$(".input-box").on("search", function() {
   $("a[data-title]").each(function() {
     $(this)
       .parent()
