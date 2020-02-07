@@ -50,6 +50,10 @@ li {
 
 img {
   border-radius: 5px;
+  transition: opacity 0.25s ease-in-out;
+}
+img:hover {
+  opacity: 0.5;
 }
 
 .lb-data .lb-caption {
@@ -62,7 +66,6 @@ img {
   text-align: left;
   padding-top: 15px;
 }
-
 
 .lb-close {
   margin-top: 15px;
@@ -78,9 +81,7 @@ img {
   .lb-data .lb-caption {
     font-size: 16px;
     max-width: 600px;
-    
   }
-
 }
 
 @media (min-width: 768px) {

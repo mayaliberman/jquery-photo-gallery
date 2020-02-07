@@ -39,6 +39,7 @@ $(".input-box").on("search", function() {
     $(this)
       .parent()
       .removeClass("hide");
-       return;
+    return;
   });
 });
+
